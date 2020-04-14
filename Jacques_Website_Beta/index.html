@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacques Wolmarans</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">About Me</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Music</a>
+    <a id="Outdoor" onclick="showOutdoor()" class="animated fadeIn" style="animation-delay:2.2s;">Outdoor</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Jacques Wolmarans</h1>
+        <h2>Junior Electrical Engineer/ Musician / Surfer / Tennis Player</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+            <a onclick="showOutdoor()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Current Work</h1>
+        <img src=" https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/71188113_2930308770318303_296244334154481664_n.jpg?_nc_cat=110&_nc_sid=110474&_nc_eui2=AeEvkuDhd8zKFPAQMmdrgS1csQbEJWr5WE6xBsQlavlYTqgqWqoSq_vBQ-a9DmFwQKmhFKpL5O2zct-khcyo-IAD&_nc_oc=AQnWfKj5Opde1WwoCFxNK3f8KesOBHn4LVGR-NoXVVxYaYULyBCPBsm42qqDRZjNAgI&_nc_ht=scontent-jnb1-1.xx&oh=86754e2c335ebc17335b32c81f0eb0b6&oe=5EBD15A5" style="float:right;width:347px;height:521px;">
+        <section>
+            <h2>24 GHz Radar for Gesture Sensing</h2>
+            <p>
+                My current research, at the university of Stellenbosch, is oriented into develping a 24 GHz RADAR system with sufficient doppler resolution for gesture sensing applications.
+            </p>
+              <p>
+                My current supervisors are Prof. JB DeSwardt and Dr. Paul Van der Merwe, as part of the EMACS research group.
+              </p>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About</h1>
+            <section>
+                <h2><img src="https://scontent-jnb1-1.xx.fbcdn.net/v/t31.0-0/p640x640/20286827_1733975919963072_1483090721034344786_o.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_eui2=AeFSvB4iaBQAbB_dPfBadUxd4CpLLO09aFHgKkss7T1oUdLLHaly7L5h8rMGngFNzMXeaRp-4jT2Rb2bXoy8DrOU&_nc_oc=AQlgg31um32JQEm0enzWfSRtepu4ryIu3NYGWyRJ-CPo_4pCJq_GhbQUlomm1HDHFqc&_nc_ht=scontent-jnb1-1.xx&_nc_tp=6&oh=8c52a5e004d07fed2b50983fb7c0c805&oe=5EBC6ADF" style="float:right;width:347px;height:521px;">About Me</h2>
+                <p>
+                  I am a Masters student at the university of Stellenbosch. If I'm not working in the lab you'll most likely find me on the tennis court or out surfing the vast beautiful coastline of South Africa.
+                </p>
+                <p>
+                 Music is also something which has always been a large part of my life. I received classical piano lessons under the watchful eye of Lorraine Lategan and, later, Angela Lubbe. Now my music is much more guitar orientated and I'm currently working on my debut album with Pierre Stemmett scheduled for release in September 2020.
+                </p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <p>
+                    I hold a degree in Electrical & Electronic Engineering from Stellenbosch University with a focus in RF engineering. Coupled resonator filter design and microwave network design are my current strengths.
+                  </p>
+                  <p>
+                    I also have experience developing software for digital signal processing and have developed embedded systems using the STM and ESP32 micro-controllers.
+                    Apart from that, I have designed and constructed a working 25 watt class A/B audio amplifier and a 10 GHz integrated coupled resonator filter.
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Music</h1>
+            <section>
+                <h2>Music</h2>
+                <p><img src="lazy eyes.png" style="float:right;width:400px;height:400px;">
+                    Ghosts and Lunar Blues out soon.
+                </p>
+            </section>
+        </div>
+      </div>
+        <div id="Outdoor_container" class="container">
+          <div onclick="closeOutdoor()"><i class="fas fa-angle-up"></i></div>
+          <h1>Outdoor</h1>
+          <section>
+              <h2>Outdoor</h2>
+              <img src= "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/22279512_1873614639321060_5691549018156821035_n.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_eui2=AeELaaqzPIYRu7-VUo18UmOsuAJD_O302I-4AkP87fTYjy2XxTHFg3VptCDvEEi-VXb423bWnza9Xygs-G18wwQs&_nc_oc=AQkrisSuKTiyI5xJlHS7lcGlAcCwMDGOdby0jDZcUnzBKogP3M-9XqZ58Bg4wVOskVM&_nc_ht=scontent-jnb1-1.xx&oh=14347713f494ce6e06581526445fdd40&oe=5EBBBBC7"; style="width:180px;height:270px;">
+              <img src= "https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-0/p640x640/37283367_2209696272379560_6000480164788568064_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_eui2=AeFOCBdsqV83F-cOleumDmLFOzj84YxqS8Q7OPzhjGpLxG4P-G6M-RBq1ie9FRJwG5NrkeWx3Z1Evs7wWoADtxQ_&_nc_oc=AQnSMXDsNHCJaGx6mVEUDEyegqT7QMTSxOnDRfLox87PwaCed7ucjTT2wzl1YBr4ZLc&_nc_ht=scontent-jnb1-1.xx&_nc_tp=6&oh=7eed5cfa7e2b01e1b330a805a05d4527&oe=5EBBED23"; style="width:400px;height:266px;">
+              <img src= "IMG_6105 (1).JPG"; style="width:450px;height:300px;">
+              <img src= "IMG_7577.JPG"; style="width:168px;height:108px;">
+              <p>
+                  I play tennis for Maties, Surf and enjoy trail running.
+              </p>
+          </section>
+      </div>
+        <div id="footer">
+            Made in Lockdown by a South African <br> <a href="https://soundcloud.com/jacquesparques">Jacques Parques</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
